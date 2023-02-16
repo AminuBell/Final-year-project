@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Project Management System</title>
 
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        .nav-link {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    </style>
 
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">ITREPOSITORY</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">ITrepository</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,26 +43,50 @@
     </header>
 
     <main>
-        <div class="jumbotron jumbotron-fluid" 
-        ">
-            <div class="container">
-                <h1 class="display-4">Welcome to Department of Information Technology Bayero University, kano Projects Repository</h1>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                <p class="lead">Find and explore final year projects from our department.</p>
-            </div>
+        <div class="jumbotron jumbotron-fluid" ">
+            <div class=" container">
+            <h1 class="display-4">Welcome to Department of Information Technology Bayero University, kano Projects
+                Repository</h1>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <p class="lead">Find and explore final year projects from our department.</p>
         </div>
-     </main>
-     <!-- Footer -->
-     <footer class="page-footer font-small blue">
-       <!-- Copyright -->
-       <div class="footer-copyright text-center py-3">© 2023 Copyright:
-         <a href="/"> ITrepository.com</a>
-       </div>
-       <!-- Copyright -->
-     </footer>
-     <!-- Footer -->
+        </div>
+    </main>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="jumbotron jumbotron-fluid">
 
-</body> 
+        <footer class="text-center text-lg-start" ">
+            <div class="container d-flex justify-content-center py-5">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fab fa-youtube"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fab fa-instagram"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b;">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://ITrepository.com/">ITrepository.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+    <!-- End of .container -->
+    
+</body>
